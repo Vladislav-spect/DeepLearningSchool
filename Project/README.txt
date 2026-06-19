@@ -5,7 +5,7 @@
 FACE RECOGNITION PROJECT
 ============================================================
 
-Пайплайн распознавания лиц, собранный «руками»:
+Пайплайн:
 детекция -> выравнивание -> распознавание.
 В репозитории — основная часть (задания 1-3) и доп. задания 1-2.
 
@@ -27,8 +27,7 @@ FACE RECOGNITION PROJECT
     наш распознаватель; демо «один/разные люди».
 
 1_dop_Identification_Rate_Metric.ipynb   (доп. задание 1)
-    Метрика TPR@FPR (Identification Rate), все проверочные тесты
-    пройдены, сравнение моделей.
+    Метрика TPR@FPR (Identification Rate)
 
 2_dop_Triplet_Loss.ipynb           (доп. задание 2)
     Triplet Loss + batch-hard mining, кастомный датасет троек,
@@ -40,7 +39,7 @@ FACE RECOGNITION PROJECT
 ------------------------------------------------------------
 
 Ноутбуки связаны через общую рабочую папку (face_project на
-Google Drive) и выполняются по порядку:
+Google Drive) и выполнялись по порядку:
 
   1_FaceAlignment  ->  aligned/{train,val,query,distractors}/<id>/
                        (выровненные лица)
@@ -69,6 +68,5 @@ Google Drive) и выполняются по порядку:
 
 - selected_images.csv — исходные имена отобранных картинок CelebA,
   id личности, группа (train/query/distractors) и координаты точек.
-  Сдаётся вместе с проектом.
 
 
