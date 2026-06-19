@@ -18,7 +18,7 @@ FACE RECOGNITION PROJECT
     Подготовка датасета CelebA, Stacked Hourglass для 5 ключевых
     точек, выравнивание лиц, сборка выровненного датасета.
 
-2_ArcFace.ipynb                    (осн. задание 2)
+2_part_main.ipynb                    (осн. задание 2)
     Сеть-распознаватель на ResNet-50: обучение на CE и на ArcFace,
     сравнение, извлечение эмбеддингов.
 
@@ -48,7 +48,7 @@ Google Drive) и выполняются по порядку:
                        (исходные имена картинок CelebA)
                    ->  hourglass_best.pt
 
-  2_ArcFace        ->  embnet_ce.pt, embnet_arcface.pt
+  2_part_main        ->  embnet_ce.pt, embnet_arcface.pt
                        (эмбеддинг-сети)
 
   2_dop_Triplet    ->  embnet_triplet.pt
